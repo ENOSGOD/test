@@ -1,0 +1,14 @@
+create table contatos(
+    id integer not null AUTO_INCREMENT,
+    nome varchar(50) not null, 
+    apelida varchar(45),
+    primary key (id)
+)
+
+create table informacoes(
+    id integer not null AUTO_INCREMENT,
+    tipo varchar(45),
+    valor varchar(500),
+    CONSTRAINT FK_id FOREIGN KEY (id)
+    REFERENCES id(contatos)
+)

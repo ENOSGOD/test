@@ -1,0 +1,11 @@
+*{
+	margin:0px;
+	padding;0px
+}
+.a-div{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	height: 1000px;
+	background-color: #32CD99;
+}
